@@ -1,0 +1,104 @@
+body {
+    background-color: black;
+    font-family: 'League Spartan', sans-serif;
+    color: #F2F2F2;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.container-newsletter {
+    width: 50%;
+    height: 90vh;
+}
+
+.container-newsletter .container-header {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-newsletter .container-header .logo-header {
+    color: #8257e5;
+    width: 25%;
+    height: 25%;
+    align-self: center;
+    margin: 0 2rem;
+}
+
+.container-newsletter .container-header h1 {
+    font-size: 40px;
+}
+
+.diferent-color {
+    color: #04D361;
+}
+
+.container-newsletter .container-text {
+    margin: 2rem 3rem;
+    font-size: 23px;
+}
+
+.title-paragraph {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.sub-title-paragraph {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.container-image {
+    width: 50%;
+}
+
+.container-newsletter .container-form {
+    width: 100%;
+    margin: 5rem 3rem;
+    display: flex;
+}
+
+.container-newsletter .container-form label {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container-newsletter .container-form .container-input-email {
+    margin-top: 1.5rem;
+}
+
+.container-newsletter .container-form .container-input-email input{
+    width: 600px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 3px 10px;
+    border-left: 5px solid #04D361;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+}
+
+.container-newsletter .container-form .container-input-email .button-submit-form {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    align-self: center;
+    background-color: #8257e5;
+    color: #F2F2F2;
+}
+
+.container-newsletter .container-form .container-input-email .icon-button {
+    height: 25px;
+    width: 25px;
+}
+
+.container-image {
+    width: 50%;
+}
+
+.container-image img{
+    width: 100%;
+    height: 99.6vh;
+    /* corrigir dimensoes da imagem (height, n sei deixar perfeito)*/
+}
